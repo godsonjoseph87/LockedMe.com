@@ -19,39 +19,62 @@ Functionalities of the APP:
 Sprint Details:
 
 Sprint 1:
+
 1. Documentation and requirement gathering.
+
 Sprint 2:
+
     1. Git setup.
+    
     2. Welcome screen with Application Name, Details.
+    
     3. User Menu - (Different Functionalities available in the application).
-        4.Test the functionalities
+    
+    4.Test the functionalities
+    
 Sprint 3:
     1. Functionality to read and display file in ascending order.
+    
     2. Functionality to add and delete file.
-               3.Test the functionalities
+    
+    3.Test the functionalities
+    
 Sprint 4:
+
     1. Search File functionality.
     2. Close application with a message functionality.
-       3.End to End Testing.
+    3.End to End Testing.
 
 
 About The Project:-
+
 Different Techniques Used:-
+
     1. constructor.
+    
     2. Inheritance
+    
     3. Access Modifiers
+    
     4. Scanner functionality
+    
     5. Switch Functionality
+    
     6. Sort Functionality
 
 Functions Used In the Project And Its Purpose:
+
     1. WelcomeScreen:
         Function handles the responsibility of showing the welcome screen message and the details about the developers 
+        
     2. showMenu:
         Function handles the responsibility of showing the different functionality that the application can perform.
+        
     3. ListFiles:
         Functionality handles the responsibility of showing the list of files in a directory in the ascending order.
+        
     4. AddFile:
         Functionality handles the responsibility of adding a new file in to the directory.
+        
     5. DeleteFile:
         Functionality handles the responsibility of deleting the selected file from the directory.
