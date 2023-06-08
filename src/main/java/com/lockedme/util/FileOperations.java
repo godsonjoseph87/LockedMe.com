@@ -9,10 +9,10 @@ public class FileOperations {
         File[] files = directory.listFiles();
 
         if (files == null || files.length == 0) {
-            System.out.println("Directory is empty.");
+            System.out.println("Directory is empty!!!");
         } else {
             Arrays.sort(files);
-            System.out.println("Files in the directory (in ascending order):");
+            System.out.println("********Files in the directory (in ascending order):********");
             for (File file : files) {
                 System.out.println(file.getName());
             }
@@ -24,12 +24,12 @@ public class FileOperations {
 
         try {
             if (newFile.createNewFile()) {
-                System.out.println("File added successfully: " + newFile.getName());
+                System.out.println("File added successfully: !!" + newFile.getName());
             } else {
-                System.out.println("File already exists: " + newFile.getName());
+                System.out.println("File already exists: !!" + newFile.getName());
             }
         } catch (Exception e) {
-            System.out.println("An error occurred while adding the file: " + e.getMessage());
+            System.out.println("An error occurred while adding the file: !!" + e.getMessage());
         }
     }
 
@@ -38,12 +38,12 @@ public class FileOperations {
 
         if (fileToDelete.exists()) {
             if (fileToDelete.delete()) {
-                System.out.println("File deleted successfully: " + fileToDelete.getName());
+                System.out.println("File deleted successfully: !!" + fileToDelete.getName());
             } else {
-                System.out.println("Failed to delete the file: " + fileToDelete.getName());
+                System.out.println("Failed to delete the file: !!" + fileToDelete.getName());
             }
         } else {
-            System.out.println("File not found: " + fileToDelete.getName());
+            System.out.println("File not found: !!" + fileToDelete.getName());
         }
     }
 }
