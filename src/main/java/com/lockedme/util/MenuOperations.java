@@ -12,12 +12,15 @@ public class MenuOperations extends FileOperations {
         this.directory = new File(this.directoryPath);
     }
 
-    public void showMenu(){
+    public void WelcomeScreen(){
+        System.out.println("\n\n");
         System.out.println("Welcome to LockedMe.com - File Management System");
         System.out.println("Developer: Godson Joseph");
         System.out.println("Directory: " + directory.getAbsolutePath());
         System.out.println();
+    }
 
+    public void showMenu(){
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
